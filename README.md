@@ -1,2 +1,2 @@
-# portfolio-smkn40
-Portfolio Octaraihandy Putra SMKN 40 Jakarta
+# Mizuki Octa Portfolio
+This repository is created by **Octaraihandy Putra**
