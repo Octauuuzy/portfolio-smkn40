@@ -4,4 +4,6 @@ This repository is created by **Octaraihandy Putra** for education purpose only 
 ## Website Preview
 
 ![Website 1](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/preview2.png)
+-
+-
 ![Website 2](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/preview1.png)
