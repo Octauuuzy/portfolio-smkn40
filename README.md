@@ -1,5 +1,5 @@
 # Mizuki Octa Portfolio
-This repository is created by **Octaraihandy Putra** for education purpose only and shouldn't be used for commercial.
+This repository is created by **Octaraihandy Putra** for educational purpose only and shouldn't be used for commercial.
 
 ## Website Preview
 
