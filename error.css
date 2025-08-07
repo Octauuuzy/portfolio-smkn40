@@ -1,0 +1,26 @@
+.err {
+    font: 1em sans-serif;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 25%;
+}
+img {
+    margin-left: 40%;
+    margin-top: 10px;
+}
+.license {
+    font: 1em sans-serif;
+    text-align: center;
+    margin-top: 25%;
+    margin-left: 1%;
+}
+
+@media (max-width: 768px) {
+    .img {
+        margin-top: 90%;
+    }
+    .err {
+        margin-top: 90%;
+    }
+
+}
