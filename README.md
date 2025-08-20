@@ -10,3 +10,8 @@ This repository is created by **Octaraihandy Putra** for educational purpose onl
 ![Website 2](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/preview1.png)
 -
 ![Error Handler](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/err_handler.png)
+-
+![About Me](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/aboutme.png)
+-
+![Skills](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/skills.png)
+-
