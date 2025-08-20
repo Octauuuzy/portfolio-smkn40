@@ -21,6 +21,9 @@ body {
     background-color: #ffffff;
     padding: 25px 0;
     border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .navbar .container {
@@ -48,14 +51,15 @@ body {
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    transition: color 0.3s;
 }
 
 .navbar nav a:hover {
     color: #e63946;
 }
 
-.prabowo {
-    padding: 80px 0;
+.main-content {
+    padding-top: 80px;
 }
 
 .container-main {
@@ -65,6 +69,7 @@ body {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding-bottom: 80px;
 }
 
 .intr-text {
@@ -142,179 +147,126 @@ body {
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
-    .container-main {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .intr-text p {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .image-main {
-        margin-top: 50px;
-        width: 100%;
-    }
-
-    .navbar .container {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .navbar nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
-
-    .intr-text h1 {
-        font-size: 40px;
-    }
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fdfdff;
-    color: #333;
-    overflow-x: hidden;
-}
-
-.container {
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.navbar {
+.about-me-sec, .skills-sec {
+    text-align: center;
+    padding: 80px 0;
     background-color: #ffffff;
-    padding: 25px 0;
-    border-bottom: 1px solid #eee;
 }
 
-.navbar .container {
+.skills-sec {
+    background-color: #f9f9f9;
+}
+
+.about-me-sec h2, .skills-sec h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-me-text {
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+.tools-title, .skills-sec h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.tools-grid {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 28px;
-    font-weight: bold;
-    color: #222;
-}
-
-.navbar nav ul {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-}
-
-.navbar nav a {
-    text-decoration: none;
-    color: #555;
-    font-weight: bold;
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.navbar nav a:hover {
-    color: #e63946;
-}
-
-.prabowo {
-    padding: 80px 0;
-}
-
-.container-main {
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
+    justify-content: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
-.intr-text {
-    flex: 1;
+.tool-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
-.image-main {
-    flex: 1;
-    position: relative;
+.tool-item img {
+    width: 60px;
+    height: 60px;
+}
+
+.tool-item span {
+    font-weight: bold;
+    color: #555;
+}
+
+.skills-sec .icons {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
-.image img {
-    max-width: 85%;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-.main-text {
-    color: #888;
-    font-weight: bold;
-    margin-bottom: 8px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-
-.intr-text h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
-    font-weight: 900;
-}
-
-.intr-text p {
-    font-size: 16px;
-    line-height: 1.7;
-    margin-bottom: 30px;
-    max-width: 450px;
-}
-
-.download {
-    display: inline-block;
-    background-color: #e63946;
-    color: #ffffff;
-    padding: 15px 30px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border: none;
-    transition: all 0.2s ease;
-}
-
-.download:hover {
-    background-color: #0ff2cc;
-    color: black;
-    transform: translateY(-2px);
-}
-
-.social-links {
-    position: fixed;
-    bottom: 30px;
-    left: 30px;
+.skills-sec .skill-item {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    align-items: center;
+    gap: 10px;
 }
 
-.social-links a {
-    text-decoration: none;
-    color: #555;
+.skills-sec .skill-item img {
+    width: 80px;
+}
+
+.skills-sec .skill-item span {
+    font-size: 16px;
     font-weight: bold;
+    color: #333;
+}
+
+.soft-skills-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.skill-bar-item {
+    margin-bottom: 25px;
+}
+
+.skill-label-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.skill-bar-item p {
+    font-weight: bold;
+    margin: 0;
+}
+
+.percentage {
+    font-weight: bold;
+    color: #555;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #e63946;
+    border-radius: 5px;
+    transition: width 1.5s ease-in-out;
 }
 
 @media (max-width: 768px) {
