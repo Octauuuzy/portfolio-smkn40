@@ -1,6 +1,6 @@
 # Mizuki Octa's Portfolio
 
-![Mizuki Octa's Portfolio Banner](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/preview1.png)
+![Mizuki Octa's Portfolio Banner](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/preview2.png)
 
 Welcome to my personal portfolio repository! This project showcases my skills in web development and my journey as a software engineering student at SMKN 40 Jakarta. This portfolio was created for educational purposes and to share my work with my teacher and potential future employers.
 
@@ -29,10 +29,10 @@ This project was built using a combination of modern web technologies and progra
 
 Here are some screenshots of the live website:
 
-![Website Preview 1](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/preview2.png)
-![Error Handler](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/err_handler.png)
-![About Me Page](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/aboutme.png)
-![Skills Section](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/skills.png)
+![Website Preview 1](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/aboutme.png)
+![Error Handler](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/skills.png)
+![About Me Page](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/preview2.png)
+![Skills Section](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/err_handler.png)
 
 ## 🚧 Future Improvements
 
