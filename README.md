@@ -31,7 +31,7 @@ Here are some screenshots of the live website:
 
 ![Website Preview 1](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/aboutme.png)
 ![Error Handler](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/skills.png)
-![About Me Page](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/preview2.png)
+![About Me Page](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/preview1.png)
 ![Skills Section](https://github.com/Octauuuzy/portfolio-smkn40/blob/main/preview/err_handler.png)
 
 ## 🚧 Future Improvements
