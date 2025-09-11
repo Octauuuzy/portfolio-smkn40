@@ -4,7 +4,7 @@
 
 Welcome to my personal portfolio repository! This project showcases my skills in web development and my journey as a software engineering student at SMKN 40 Jakarta. This portfolio was created for educational purposes and to share my work with my teacher and potential future employers.
 
-[![Live Preview](https://img.shields.io/badge/Live-Preview-brightgreen?style=for-the-badge&logo=vercel)](https://octauuuzy.github.io/portfolio-smkn40/)
+[![Live Preview](https://img.shields.io/badge/Live-Preview-brightgreen?style=for-the-badge&logo=vercel)](https://projectocta.me)
 
 ## 🚀 Technologies Used
 
