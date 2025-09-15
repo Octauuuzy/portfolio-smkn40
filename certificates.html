@@ -13,6 +13,43 @@
             justify-content: center;
             align-items: center;
         }
+        .prabowo .container-main {
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        .prabowo .image-main {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 28px;
+        }
+        .prabowo .image {
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            padding: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            aspect-ratio: 16 / 10;
+        }
+
+        .prabowo .image img {
+            width: 100%;
+            height: 100%;
+            max-width: none; 
+            object-fit: contain;
+            border-radius: 10px;
+        }
+        @media (max-width: 480px) {
+            .prabowo .image-main {
+                grid-template-columns: 1fr;
+            }
+            .prabowo .image {
+                aspect-ratio: 16 / 11;
+            }
+        }
     </style>
 </head>
 <body>
@@ -41,6 +78,9 @@
                 </div>
                 <div class="image">
                     <img src="certificates/Sertifikat SIC6 Stage 1_page-0001.jpg" alt="Octaraihandy Putra">
+                </div>
+                <div class="image">
+                    <img src="certificates/Minecraft Adventure Certificate_Octaraihandy Putra.png" alt="Octaraihandy Putra">
                 </div>
             </div>
         </div>
